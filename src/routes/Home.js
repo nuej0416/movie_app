@@ -30,20 +30,22 @@ class Home extends React.Component {
           <div className = "loader">
             <span className = "loader_text">Loading...</span>
           </div>
-        ) : (
-          <div className = "movies">
-            {movies.map(movie => (
-              <Movie 
-                key = {movie.id} 
-                id= {movie.id} 
-                year = {movie.year} 
-                title = {movie.title} 
-                summary = {movie.summary} 
-                poster = {movie.medium_cover_image}
-                genres = {movie.genres}
-              />
-            ))}
-          </div>
+        ) : ( 
+            <div className = "movies">
+              {movies.map(movie => (
+                <Movie 
+                  key = {movie.id} 
+                  id= {movie.id} 
+                  year = {movie.year} 
+                  title = {movie.title} 
+                  summary = {movie.summary} 
+                  poster = {movie.medium_cover_image}
+                  genres = {movie.genres}
+                  rating = {movie.rating}
+                  runtime = {movie.runtime}
+                />
+              ))}
+            </div>
           )}
       </section>
     );

@@ -1,0 +1,56 @@
+.container_wrap {
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movie_details {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-top : 70px;
+    /* margin-top:50px; */
+    margin:30px auto;
+    width : 60%;
+    flex-direction: column;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.25);
+}
+
+.movie_detail_list {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie_details img {   
+    margin: 0 auto;
+}
+
+.movie_detail_info {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie_detail_title {
+    padding : 30px;
+    padding-top:100px;
+}
+
+.movie_detail_year {}
+
+.movie_detail_genres {}
+
+.movie_detail_runtime {}
+
+.movie_detail_rating {}
+
+.movie_detail_summary {
+    width : 60%;
+    margin : 0 auto;
+    padding-top:20px;
+}
