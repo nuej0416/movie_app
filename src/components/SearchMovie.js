@@ -10,7 +10,7 @@ function SearchMovie({ id, year, title, summary, poster, genres, rating, runtime
                 <Link to = {
                     {pathname : `/movie/${id}`,
                     state : {
-                        year,
+                    year,
                     title,
                     summary,
                     poster,
@@ -25,11 +25,15 @@ function SearchMovie({ id, year, title, summary, poster, genres, rating, runtime
                         <h3 className = "s_movie_title"> {title} </h3>
                         <p className = "s_movie_rating"> {rating} </p>
                         <p className = "s_movie_year"> {year} </p>
+                        <p className = "s_movie_runtime"> {runtime} </p>
+                        {/* <p className = "s_movie_summary">{summary.slice(0, 180)}...</p> */}
                     </div>
+                    
                 </Link>
             </div>
     )
 };
+
 
 SearchMovie.propTypes = {
     id : PropTypes.number.isRequired,

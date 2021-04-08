@@ -16,6 +16,7 @@
     justify-content: space-between;
     text-decoration: none;
     color : inherit;
+    position: relative;
 }
 
 .s_movie img {
@@ -25,6 +26,12 @@
     margin-right : 30px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.s_movie_data {
+    position: absolute;
+    top: 10px;
+    left: 30%;
 }
 
 .s_movie .s_movie_title, .s_movie .s_movie_year {

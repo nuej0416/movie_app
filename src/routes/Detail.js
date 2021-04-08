@@ -12,7 +12,7 @@ class Detail extends React.Component {
     render() {
         const { location } = this.props;
         // const {genres = []} = this.props; 
-        // console.log(this.props);
+        console.log(this.props);
         // console.log(location.state.genres);
         // console.log(location.state.genres.index);
         if (location.state) {

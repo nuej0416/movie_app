@@ -14,7 +14,7 @@
 }
 
 .input_div {
-    background-color: cyan;
+    background-color: rgb(226, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
